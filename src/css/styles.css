@@ -4,31 +4,8 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-.menu {
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-}
-a {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #808080;
-  text-decoration: none;
-}
-a:hover {
-  color: black;
-}
 
 /* Tiner */
-body {
-  padding: 36px 156px;
-}
 
 form {
   margin: 0 auto;
@@ -39,6 +16,7 @@ form {
   gap: 8px;
   width: 371px;
   height: 40px;
+  margin-bottom: 32px;
 }
 
 input {
@@ -83,4 +61,39 @@ button {
 
 button:hover {
   background: #6c8cff;
+}
+
+.discription {
+  display: flex;
+  border: 1px solid #808080;
+
+  background: #fff;
+  justify-content: space-between;
+  padding: 4px 16px;
+  text-align: center;
+}
+
+.result {
+  margin: 0 auto;
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 24px;
+}
+
+.picture-card {
+  width: 360px;
+  height: 200px;
+}
+
+.photo-item {
+  width: 360px;
+  height: 152px;
+}
+img {
+  display: block;
+  object-fit: cover;
+}
+li {
 }
