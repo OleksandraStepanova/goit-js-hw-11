@@ -35,7 +35,9 @@ function createSearch(e) {
     }
     ));
     }
-    
+    document.addEventListener("DOMContentLoaded", () => {		
+		Loading.remove();
+	})
     formRef.reset();
     
 }
